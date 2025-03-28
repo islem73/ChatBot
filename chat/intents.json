@@ -1,0 +1,47 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hi", "hey", "=What's up?", "Hello", "Good day" ,"How is it going ?"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye", "Good day", "Take care", "Have a good day"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+    },
+    {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Thank you very much"],
+    "responses": ["You're welcome!", "Anytime!", "My pleasure", "Glad I could help!"],
+    "context_set": ""
+    },
+    {"tag": "noanswer",
+    "patterns": [],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context_set": ""
+    },
+    {"tag": "options",
+    "patterns": ["How you can help me?", "What you can do?", "What help you provide?", "What support is offered"],
+    "responses": ["I can help you with your queries", "I can provide support for your queries", "I can help you with your questions"],
+    "context_set": ""
+    },
+    {"tag": "name",
+    "patterns": ["What is your name?", "What should I call you?", "Who are you?"],
+    "responses": ["You can call me Chatbot.", "I'm Chatbot!", "I'm Chatbot, your virtual assistant."],
+    "context_set": ""
+    },
+    {"tag": "age",
+    "patterns": ["What is your age?", "How old are you?", "When were you born?"],
+    "responses": ["I'm a computer program, I don't have an age!", "I'm a computer program, I don't have an age!", "I'm a computer program, I don't have an age!"],
+    "context_set": ""
+    },
+    {"tag": "options",  
+    "patterns": ["What can you do?", "What are your features?", "What are you capable of?", "What are your abilities?"],  
+    "responses": ["I can help you with your queries", "I can provide support for your queries", "I can help you with your questions"], 
+    "context_set": "" 
+    },
+    {"tag": "help",     
+    "patterns": ["Can you help me?", "What can you do for me?", "Can you give me a hand?", "Can you support me?"],
+    "responses": ["I can help you with your queries", "I can provide support for your queries", "I can help you with your questions"],
+    "context_set": ""
+    }
+]}
