@@ -51,3 +51,4 @@ while True:
     for i in intents['intents']:
         if i['tag'] == ints[0]['intent']:
             print(random.choice(i['responses']))
+            
