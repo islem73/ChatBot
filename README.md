@@ -28,6 +28,13 @@ This is an intelligent AI-powered chatbot built in **Python** using **Neural Net
 ```bash
 git clone https://github.com/islem73/ChatBot.git
 
+## 🙋‍♂️ Author
+
+Built with ❤️ by **Islem Ben Ameur**
+
+---
+
+
 
 ## 📦 Dependencies
 
